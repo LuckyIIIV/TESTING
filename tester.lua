@@ -1,8 +1,3 @@
---[[
-  Stark obfuskierte Game-Daten-Tabelle
-  Roblox-kompatibel und getestet
-]]--
-
 local function _(a)
     local b=""
     for c=1,#a,2 do b=b..string.char(tonumber(a:sub(c,c+1),16))end
